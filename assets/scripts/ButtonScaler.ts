@@ -8,6 +8,7 @@ export class ButtonScaler extends Component {
     @property
     public transDuration = 0.2;
 
+
     public initScale = new Vec3();
     public button: Button | null = null;
     private _scale = new Vec3(1, 1, 1);
